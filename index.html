@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="fr" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- SEO -->
+    <title>VUI - Introduction</title>
+    <meta name="description" content="VUI - Introduction">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/base.css">
+
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/colors.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://voice2018.webnicol.fr/"> <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="VUI"> <!-- EDIT -->
+    <meta property="og:description" content="Interfaces Utilisateurs Vocales - Introduction - Slides by @nicol_alexandre"> <!-- EDIT -->
+    <meta property="og:updated_time" content="2018-02-23T19:15:00"> <!-- EDIT -->
+    <meta property="og:image" content="https://voice2018.webnicol.fr/static/images/mine/riseofthebots.png" > <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://voice2018.webnicol.fr/"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@nicol_alexandre"> <!-- EDIT -->
+    <meta name="twitter:title" content="VUI"> <!-- EDIT -->
+    <meta name="twitter:description" content="Interfaces Utilisateurs Vocales - Introduction - Slides by @nicol_alexandre"> <!-- EDIT -->
+    <meta name="twitter:image" content="https://voice2018.webnicol.fr/static/images/mine/riseofthebots.png"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+  <body>
+
+    <main role="main">
+      <article id="webslides">  <!-- Slideshow? id="webslides" -->
+
+
+        <section class="bg-apple">
+          <!--.wrap = container 1200px -->
+          <div class="wrap content-center">
+            <h1><strong>Interfaces Utilisateurs Vocales  Introduction</strong></h1>
+            <p>BrestJS @BrestJS - Alex Nicol @nicol_alexandre<br/>
+               <a href="https://voice2018.webnicol.fr/">voice2018.webnicol.fr</a>
+            </p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap content-left">
+            <h1>Me</h1>
+            <p>Alex Nicol - <a target="_blank" href="https://twitter.com/nicol_alexandre">@nicol_alexandre</a> - <a href="https://github.com/alexandrenicol/?tab=repositories">Github</a> <br/>
+            Developer @ Digital Innovation team // EDF Energy R&amp;D UK Centre<br/>
+            Web / Mobile / AR / Chatbots / Blockchain
+            </p>
+
+            <ul class="wrap.80 flexblock gallery">
+                <li>
+                  <a href="#" title="Netflix's Culture">
+                    <figure>
+                      <img alt="Thumbnail Netflix's Culture" src="static/images/2018/alexa-edf.png">
+                      <figcaption>
+                        <h2>EDF Energy Alexa Skill</h2>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Landings">
+                    <figure>
+                      <img alt="Thumbnail Landings" src="static/images/2018/alexa-bus.png">
+                      <figcaption>
+                        <h2>Seagulls Buses Alexa Skill</h2>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Portfolios">
+                    <figure>
+                      <img alt="Thumbnail Portfolios" src="static/images/2018/alexa-energy.png">
+                      <figcaption>
+                        <h2>Energy Guru Alexa Skill</h2>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Keynote">
+                    <figure>
+                      <img alt="Thumbnail Keynote" src="static/images/2018/resolutions.png">
+                      <figcaption>
+                        <h2>2018 Resolutions Google Actions</h2>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap content-center">
+            <h1>Interfaces Utilisateurs Vocales ?</h1>
+            <h3>What is VUI?</h3>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap content-center">
+            <h1>Interfaces Utilisateurs permettant l'accés à des informations en utilisant la voix. </h1>
+          </div>
+        </section>
+        <section class="bg-apple" >
+          <div class="wrap">
+            <h3>It has always been a dream</h3>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail " src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/1200px-HAL9000.svg.png">
+                    <div class="overlay">
+                      <h2>HAL9000</h2>
+                      <p>2001: A Space Odyssey (1968)</p>
+                    </div>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail" src="static/images/2018/kitt.png">
+                    <div class="overlay">
+                      <h2>KITT</h2>
+                      <p>Knight Rider (1982)</p>
+                    </div>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img alt="Thumbnail" src="static/images/2018/viki.png">
+                    <div class="overlay">
+                      <h2>VIKI</h2>
+                      <p>I, Robot (2004)</p>
+                    </div>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="fullscreen bg-black">
+          <span class="background dark" style="background-image:url('https://images.idgesg.net/images/article/2017/09/echo-family-100737285-orig.jpg')"></span>
+          <div class="wrap content-center">
+            <h2 class="text-data">20,000,000+</h2>
+            <p>Echo devices sold</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="fullscreen bg-black">
+          <span class="background dark" style="background-image:url('https://images.techhive.com/images/article/2016/11/google_home_chromecast-100691334-orig.jpg')"></span>
+          <div class="wrap content-center">
+            <h2 class="text-data">10,000,000+</h2>
+            <p>Google home devices sold</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="fullscreen bg-apple"> <!-- ELEVEN DO NOT DELETE -->
+          <div class="wrap content-center">
+            <h1>Faul-il mettre de la voix partout ?</h1>
+            <h2><a href="https://www.youtube.com/watch?v=Xl41KziMdcI" target="_blank">Oui</a></h2>
+            <h2><a href="https://dotsub.com/view/e8eccf68-4a12-4209-b70a-d3866fc38339" target="_blank">Non</a></h2>
+          </div>
+        </section>
+
+
+
+
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h1>Advantages</h1>
+            <h2>Rapide</h2>
+            <h2>Mains libres</h2>
+            <h2>Intuitive</h2>
+            <h2>"La voix parle pour elle même"</h2>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h1>Maximes de Conversations réussies (Paul Grice "Logic and Conversation" 1975)</h1>
+            <h2>Qualité (Ce que vous pensez être vrai)</h2>
+            <h2>Quantité (Autant d'information que nécessaire, mais pas plus)</h2>
+            <h2>Pertinence (Ne parlez que de ce qui est pernitent)</h2>
+            <h2>Clarté (Il faut pouvoir être compris par les autres)</h2>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h1>Bonne pratiques</h1>
+            <h2>Contexte</h2>
+            <h2>Marqueurs discursifs</h2>
+            <h2>"Fail gracefully"</h2>
+            <h2>Gérez les attentes de vos utilisateurs</h2>
+            <h2>Ce n'est pas la faute de l'utilisateur</h2>
+            <h2>Aidez les novices</h2>
+            <h2>Help/Repeat/Previous</h2>
+            <h2>"Wizard of Oz"</h2>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h1>"No screen? No problem!"</h1>
+            <h2>Intéractions courtes (Surchage cognitive)</h2>
+            <h2>Feedback/Rapidité</h2>
+            <h2>Language humain-humain</h2>
+            <h2>Correction/Confirmation</h2>
+            <h2>Evitez les lists longues</h2>
+          </div>
+        </section>
+
+        <!-- ################################### HANDS ON ####################################### -->
+        <section class="bg-apple">
+          <div class="wrap content-center">
+            <h1>HANDS ON!</h1>
+            <h2>Créeons une Google Action pour le Cinéma Les Studios!</h2>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h2>I: Hello World (+ Setup)</h2>
+            <h2>II: New Intent + Deep Linking</h2>
+            <h2>III: Dialogflow entities, prompts, actions + actions-on-google SDK</h2>
+            <h2>IV: Firebase functions + Webhook + Fulfimment</h2>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h1>Toolbox:</h1>
+            <h2>JavaScript / Node.js basic knowledge</h2>
+            <h2>Firebase + Firebase CLI</h2>
+            <h2>Dialogflow</h2>
+            <h2>Google Actions Developer account</h2>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap content-center">
+            <h1><a target="_blank" href="https://developers.google.com/actions/">developer.google.com/actions/</a></h1>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h2>I: Hello World (+ Setup)</h2>
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/actions-on-google-console.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Actions on Google</h2>
+              <h3>Console</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/actions-on-google-newproject.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Actions on Google</h2>
+              <h3>Créez un nouveau projet</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/actions-on-google-selecttechno.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Actions on Google</h2>
+              <h3>Selectionnez Dialogflow</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-createagent.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Créez votre agent</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-createnewintent.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Intents</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-welcomeintent.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Hello World</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-integrations.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Intégrations 1/2</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-integrations2.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Intégrations 2/2</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/actions-on-google-appinfo.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Actions on Google</h2>
+              <h3>App Info 1/2</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/actions-on-google-moreinfo.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Actions on Google</h2>
+              <h3>App Info 2/2</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/simulator-test-basic.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Simulateur</h2>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h2>II: New Intent + Deep Linking</h2>
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-addressintent.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>New Intent</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-addressintent-responses.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Augmented Responses</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-addressintent-deeplinking.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Deep linking</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h2>III: Dialogflow entities, prompts, actions + actions-on-google SDK</h2>
+          </div>
+        </section>
+
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-getMovieList.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Actions - Entities - Prompts</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+
+        <section class="bg-apple">
+          <div class=" content-center">
+            <script src="https://gist.github.com/alexandrenicol/4e21da34dfdfaddf1890878efea45324.js"></script>
+          </div>
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h2>IV: Firebase functions + Webhook + Fulfimment</h2>
+          </div>
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <pre>mkdir lesStudios<br/>
+npm install -g firebase-tools<br/>
+firebase login --reauth<br/>
+firebase init // select functions<br/>
+cd functions/<br/>
+npm install --save actions-on-google<br/>
+// code<br/>
+firebase deploy --only functions // be sure you get the function URL</pre>
+          </div>
+        </section>
+
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-webhook.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>Webhook</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+
+
+
+        <section class="bg-apple fullscreen">
+          <div class="card-60">
+            <figure class="browser">
+              <img alt="Screenshot" src="static/images/2018/dialogflow-fulfillment.png" />
+            </figure>
+            <!-- .end .content-left -->
+            <div class="flex-content">
+              <h2>Dialogflow</h2>
+              <h3>fulfillment</h3>
+            </div>
+            <!-- .end .content-left -->
+          </div>
+        </section>
+
+        <!-- ################################### END ####################################### -->
+        <section class="bg-apple">
+          <div class="wrap alignleft">
+            <h1>Reminders about VUI</h1>
+            <p class="text-bigger">
+              • “Will your users benefit from a VUI?”</br>
+              • “Cognitive load”</br>
+              • "Fail Gracefully"</br>
+              • “Don’t ask a questions if you won’t be able to understand the answer”</br>
+              • Create a character for your bot</br>
+              • Keep it simple</br>
+              • Listen to your users</br>
+            </p>
+          </div>
+        </section>
+        <section class="bg-apple">
+          <div class="wrap content-center">
+            <h1>Thank you</h1>
+          </div>
+        </section>
+
+      </article>
+    </main>
+    <!-- end main -->
+
+    <!-- jQuery (required for slides to work) -->
+    <script src="static/js/jquery-3.1.1.min.js"></script>
+    <script src="static/js/webslides.js"></script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
